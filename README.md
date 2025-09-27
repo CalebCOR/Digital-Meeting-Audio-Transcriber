@@ -1,4 +1,4 @@
-# Desktop-Audio-Transcriber
+# Digital-Meeting-Audio-Transcriber
 By Caleb Corlett, Version 1.0.0 (7-31-2025)
 
 A Python script to transcribe desktop audio and microphone input to a time-stamped .txt log and also produce a .wav file of the transcribed audio.
