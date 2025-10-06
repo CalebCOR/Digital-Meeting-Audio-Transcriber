@@ -36,6 +36,7 @@ def to_txt(p_file_pointer, p_timestamp, p_rel_timestamp, p_duration, p_text_stri
     timestamp_string = f"\n{p_timestamp.strftime("%H:%M:%S")}, {p_rel_timestamp.strftime("%H:%M:%S")} - "
     p_file_pointer.write(timestamp_string)
     p_file_pointer.write(p_text_string)
+    p_file_pointer.write('\n')
 
 
 def to_json(p_file_pointer, p_timestamp, p_rel_timestamp, p_duration, p_text_string, *, header_string = False, footer_string = False):
